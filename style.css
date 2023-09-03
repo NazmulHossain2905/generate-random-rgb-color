@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+h1 {
+  text-shadow: -1px -1px 0px #fff, 1px 1px 0px #fff, 1px -1px 0px #fff,
+    1px -1px 0px #fff, -1px 1px 0px #fff;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #000000;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
