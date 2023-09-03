@@ -23,7 +23,7 @@ function generateRGBColor() {
   const green = Math.floor(Math.random() * 255);
   const blue = Math.floor(Math.random() * 255);
 
-  return `rgba(${red}, ${green}, ${blue})`;
+  return `rgb(${red}, ${green}, ${blue})`;
 }
 
 // Step 3: Getting important references
